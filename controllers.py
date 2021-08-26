@@ -32,6 +32,4 @@ from .common import db, session, T, cache, auth, logger, authenticated, unauthen
 
 @unauthenticated("index", "index.html")
 def index():
-    print(">>> The controller is working")
-    # redirect("https://codepen.io/ferzeg3420/live/abBORmy")
     return dict()
